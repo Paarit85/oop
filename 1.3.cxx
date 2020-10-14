@@ -8,20 +8,19 @@ class Area{
 
 public:
 
-    float calculate(float length, float breadth){
-        return length * breadth; //Rectangle
+    float calc(float length, float breadth){
+        return length * breadth; 
     }
 
-    float calculate(float radius){
+    float calc(float radius){
         return PI * radius * radius;
     }
 };
 
 int main(){
-    Area areaCalculator;
-    //Area of rectangle
-    cout<<"Area of rectangle : "<<areaCalculator.calculate(20.5, 5.5)<<endl;
-    cout<<"Area of circle : "<< areaCalculator.calculate(3.4);
+    Area a;
+    cout<<"Area of rectangle : "<<a.calculate(9.88, 2.3)<<endl;
+    cout<<"Area of circle : "<< a.calculate(8.66);
 
     return 0;
 }
