@@ -24,8 +24,6 @@ int main(){
         scanf("%s", std[i].address);
     }
 
-
-    //Printing the data
     for(int i=0;i<n;i++){
     printf("\nName : %s\n", std[i].name);
     printf("Roll : %d\n", std[i].roll);
