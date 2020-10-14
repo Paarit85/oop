@@ -4,13 +4,13 @@ using namespace std;
 
 class Area{
 public:
-    void calculate(float length=10,float breadth=5){
+    void calculate(int length=8,int breadth=9){
     cout<<"The area is : "<<length*breadth;
 }
 };
 
 
 int main(){
-   Area calculator;
-   calculator.calculate();
+   Area c;
+   c.calculate();
 }
